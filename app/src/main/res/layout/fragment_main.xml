@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    tools:context=".MainFragment">
+
+    <EditText
+        android:id="@+id/lesson_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name of Lesson"
+        android:layout_marginTop="32dp"/>
+
+    <EditText
+        android:id="@+id/lesson_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image of Lesson"
+        android:focusable="false"
+        android:layout_marginTop="32dp"/>
+
+    <EditText
+        android:id="@+id/lesson_bcg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Background of Lesson"
+        android:focusable="false"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/add_lesson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:text="Add Lesson"/>
+
+
+</LinearLayout>
